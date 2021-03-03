@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    background-color:whitesmoke;
+    
+    
+    
+}
+
+#search {
+    margin-left: 0;
+    border-radius: 10px;
+    height: 65px;
+}
+
+#published {
+    margin-bottom: 50px;
+}
+
+
+
+h1 {
+    font-family: cursive;
+    margin:20px;
+    font-size: 35px;
+    color: white;
+    background-color: black;
+}
+
+
+
+header input {
+    width: 800px;
+    height: 60px;
+    
+}
+
+header button{
+    padding: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: white;
+    color: red;
+
+}
+ 
+
+ button {
+    text-decoration: none;
+    padding: 15px;
+    align-items: center;
+    padding-left: 55px;
+    padding-right: 45px;
+    background: black;
+    color:white;
+    border-radius: 25px;
+    text-align: center;
+    margin: 25px;
+    
+
+}
+
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left:10%;
+    margin-top: 50px;
+}
+
+.left input {
+    margin: 25px;
+    height: 50px;
+    border-radius: 10px;
+}
+.left textarea{
+    margin: 25px;;
+    border-radius: 10px;
+}
+
+.right {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    right: 10%;
+    top: 250px;
+    
+
+}
+
+.right textarea {
+    border-radius: 10px;
+}
